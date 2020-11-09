@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Provider} from 'react-redux';
 import store from './src/redux/store';
-import Navigator from './src/route/Navigator';
+import Navigator from './src/router/Navigator';
 
 export class App extends Component {
   render() {
