@@ -249,23 +249,27 @@ const styles = StyleSheet.create({
   },
   containerResult: {
     flex: 1,
-    backgroundColor: '#eee',
+    backgroundColor: '#fff',
   },
   containerRow: {
-    backgroundColor: '#969696',
+    backgroundColor: '#4d4d4d',
     flexDirection: 'row',
     flex: 1,
   },
   button: {
+    backgroundColor: '#4d4d4d',
+    width: 60,
+    height: 60,
     justifyContent: 'center',
     alignItems: 'center',
-    flex: 1,
   },
   buttonOperator: {
-    backgroundColor: '#808080',
+    backgroundColor: '#4d4d4d',
   },
   buttonText: {
-    fontSize: 24,
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 30,
   },
   number: {
     fontSize: 24,
